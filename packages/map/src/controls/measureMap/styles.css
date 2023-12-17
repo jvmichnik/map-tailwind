@@ -1,0 +1,14 @@
+.leaflet-popup.leaflet-measure-resultpopup h3,
+.leaflet-control-measure-interaction.js-interaction h3 {
+  font-size: 0.8rem !important;
+  font-weight: 500;
+}
+
+.leaflet-touch .leaflet-control-measure .leaflet-control-measure-toggle,
+.leaflet-touch .leaflet-control-measure .leaflet-control-measure-toggle:hover {
+  background-size: 1rem 1rem;
+}
+
+.leaflet-control-measure-toggle {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHcSURBVHgBfVO9SgNBEJ65U7C8RwjEH/xDhbOwu3TB6gQVO5PuSn0C4xOoIOSsjJWi8SdNjCCY9CkiqAimON/gKpskO87eZePlTLJw7NzOfPPNzH6L0F3r204OCHZFC1KVB9eD2FrfcjIIdESIJ+VrN6fO9Qj4gE0DdbCT02ap+Vn3o2DezgFwgndrasHEr/d6Vfo0BSbABhHu81lCG4eXOJgAPI6xCMGT8QFOJmDHrjQEiMJjMX8sALJCYK6fmXzi1h5v8jXSIBVNgukdJ4ECXpAgwcBM5TZ/0Q/uLoRD1Xt607E0DKvUKleu18s6omwhmFOCmVDTwsSSEBXIsveM6sOxH2MulG/crPIFYK4WItVi/KoUMyI1gNDuENlPxbPSIHDQwv+r4pERZMvXZxttgRujwOFoYtPmI4Nt76c1sTKsbNVSIKS+gbVwjQfqs914vjt9GgSW8eN6+1KJbSxadlfCh71pDyhbhH0HYkvbTkpPzpmACJb8VNZhzMnZ1aVK0b1Izpvf3HuGMYbe/KjXukls+Q5m5sxXJrmPM08umPcsHpnEk0n4PWQ4xutdI6vrgANy6j8+7ahiIZRygvsp6CrgrxJaFkJzouDA/1b3JxfNEnbAkMz8NQRg9RcHr0JJsKVjugAAAABJRU5ErkJggg==") !important;
+}

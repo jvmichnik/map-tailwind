@@ -1,0 +1,72 @@
+{
+  "name": "map-tailwind",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "private": false,
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "files": [
+    "dist/*.css"
+  ],
+  "dependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@radix-ui/react-accordion": "^1.1.2",
+    "@radix-ui/react-checkbox": "^1.0.4",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-menubar": "^1.0.4",
+    "@radix-ui/react-popover": "^1.0.7",
+    "@radix-ui/react-portal": "^1.0.4",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-slider": "^1.1.2",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-tooltip": "^1.0.7",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "esri-leaflet": "^3.0.12",
+    "esri-leaflet-cluster": "^3.0.1",
+    "geojson": "^0.5.0",
+    "leaflet": "^1.9.0",
+    "leaflet-draw": "^1.0.4",
+    "leaflet-measure": "^3.1.0",
+    "leaflet-rotatedmarker": "^0.2.0",
+    "leaflet.glify": "^3.2.0",
+    "leaflet.markercluster": "^1.5.3",
+    "lucide-react": "^0.294.0",
+    "pannellum-react": "^1.2.4",
+    "react-cropper": "^2.3.3",
+    "react-leaflet": "^4.0.0",
+    "react-leaflet-draw": "^0.20.4",
+    "tailwind-merge": "^2.1.0",
+    "tsup": "^8.0.1"
+  },
+  "peerDependencies": {
+    "leaflet": "^1.9.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-leaflet": "^4.0.0",
+    "tailwindcss": "^3.0.0"
+  },
+  "scripts": {
+    "build": "tsup index.tsx --format cjs,esm --dts & tailwindcss -i ./src/styles.css -o dist/index.css",
+    "lint": "eslint src/",
+    "dev": "npm run build -- & tailwindcss -i ./src/styles.css -o ./dist/index.css --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@turbo/gen": "^1.10.12",
+    "@types/eslint": "^8.44.7",
+    "@types/esri-leaflet": "^3.0.3",
+    "@types/leaflet": "^1.9.8",
+    "@types/node": "^20.5.2",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.53.0",
+    "postcss": "^8.4.31",
+    "react": "^18.2.0",
+    "typescript": "^5.2.2"
+  }
+}
