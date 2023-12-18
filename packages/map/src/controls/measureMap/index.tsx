@@ -4,7 +4,6 @@ import { useMap } from "react-leaflet";
 
 import "leaflet-measure/dist/leaflet-measure.css";
 import "leaflet-measure/dist/leaflet-measure.pt_BR";
-import "./styles.css";
 
 type Props = {
   position: ControlPosition;

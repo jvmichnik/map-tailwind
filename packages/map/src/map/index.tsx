@@ -10,7 +10,7 @@ import { Portal } from "@radix-ui/react-portal";
 import { LatLngBoundsLiteral } from "leaflet";
 
 import "leaflet/dist/leaflet.css";
-import "./styles.css";
+
 import { ZoomBoxControl } from "../controls/zoomBox";
 import { ControlPortal } from "../controls/_base/control-portal";
 import { HomeControl } from "../controls/home-control";
